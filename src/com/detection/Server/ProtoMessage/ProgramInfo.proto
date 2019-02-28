@@ -1,0 +1,16 @@
+syntax="proto3";
+
+
+message ReceiveMsg{
+    int32 type =1 ;
+    string channelToken = 2;
+    string AppName= 3;
+    string AppType = 4;
+}
+
+message SendMsg{
+    int32 type =1 ;
+    string channelToken = 2;
+    string AppName= 3;
+    string transferTxt = 4;
+}
