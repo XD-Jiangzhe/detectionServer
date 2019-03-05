@@ -1,5 +1,7 @@
 package com.detection.Server.processingPool.dealMessage2AppType;
 
+import com.detection.UtilLs.readPropertyFile;
+
 import java.sql.Time;
 import java.util.ArrayList;
 
@@ -23,6 +25,8 @@ public class dealTransferBlockString implements  Message2AppTypeMethod
         {
             System.out.println(e.getMessage());
         }
-        return "adwo";
+        String appType = "adwo";
+        return readPropertyFile.malware2Name.get(appType);
+
     }
 }

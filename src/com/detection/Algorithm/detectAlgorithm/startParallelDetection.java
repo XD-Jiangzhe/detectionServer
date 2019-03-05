@@ -20,7 +20,7 @@ public class startParallelDetection {
      */
     public static ArrayList<String> IstartParallelDetection(String transferText, ArrayList<Graph> orgb_list)
     {
-        Graph org = DatatransferString2Graph(transferText);
+        Graph org = DatatransferString2Graph(transferText, "test");
         ArrayList<String> possible_family_list = IParallelDetection(org, orgb_list);
 
         return possible_family_list;

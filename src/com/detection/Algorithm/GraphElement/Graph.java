@@ -7,6 +7,8 @@ public class Graph implements Serializable {
 
     private static final long serialVersionUID = -1702620197933766002L;
 
+    //orgb 图的 name 和 familyname 都是类的名称
+    //org 的图的名称是test ，类型是 "null"
     /*name of the graph*/
     public String name;
 
@@ -115,5 +117,13 @@ public class Graph implements Serializable {
     public void setFamilyname(String familyname) {
 
         this.familyname = familyname;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

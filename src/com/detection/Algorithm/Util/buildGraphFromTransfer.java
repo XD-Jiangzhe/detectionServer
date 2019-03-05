@@ -1,16 +1,11 @@
 package com.detection.Algorithm.Util;
 
 import com.detection.Algorithm.GraphElement.Graph;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.IORAddressingInfo;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-import sun.rmi.runtime.Log;
+import com.detection.UtilLs.MyLogging;
 
 import java.io.*;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class buildGraphFromTransfer {
 
@@ -25,7 +20,6 @@ public class buildGraphFromTransfer {
         Graph graph = DatatransferFile2Graph("./Test/raw_transfer/App1.txt");
 
     }
-
 
 
     /**
@@ -51,16 +45,30 @@ public class buildGraphFromTransfer {
     {
         try {
             File DataTransfer = new File(filepath);
+
+            String familyname = DataTransfer.getName().split("\\.")[0];
+
             BufferedReader reader = new BufferedReader(new FileReader(DataTransfer));
             ArrayList<String> classNames = new ArrayList<>();
             String graphRawInfo = reader.readLine();
 
-            return DatatransferString2Graph(graphRawInfo);
+            return DatatransferString2Graph(graphRawInfo, familyname);
+
         }catch (Throwable e)
         {
-            System.out.println(e.getMessage());
+            MyLogging.logger.error(e.getMessage());
+            return null;
         }
-        return null;
+    }
+
+    public static void logConsoleMatrixInfo(short[][] matrix)
+    {
+        for (short[] aMatrix : matrix) {
+            for (int j = 0; j < matrix.length; j++) {
+                System.out.print(aMatrix[j] + " ");
+            }
+            System.out.println();
+        }
     }
 
 
@@ -69,22 +77,17 @@ public class buildGraphFromTransfer {
      * @param graphRawInfo
      * @return
      */
-    public static Graph DatatransferString2Graph(String graphRawInfo)
+    public static Graph DatatransferString2Graph(String graphRawInfo, String familyName)
     {
         try {
             //存放名字 和 id
             HashMap<String, Integer> classNameMap = new HashMap<>();
             short[][] matrix = String2Matrix(graphRawInfo, classNameMap);
 
-            for (short[] aMatrix : matrix) {
-                for (int j = 0; j < matrix.length; j++) {
-                    System.out.print(aMatrix[j] + " ");
-                }
-                System.out.println();
-            }
+            logConsoleMatrixInfo(matrix);
+            MyLogging.logger.info(familyName + " "+classNameMap.size());
 
-            System.out.println(classNameMap.size());
-            return matrixToGraph(matrix, classNameMap);
+            return matrixToGraphWithoutName(matrix, classNameMap);
         }catch (Throwable e)
         {
             System.out.println(e.getMessage());
@@ -188,7 +191,15 @@ public class buildGraphFromTransfer {
 
     }
 
-    public static Graph matrixToGraph(short[][] matrix, HashMap<String, Integer> hashMap)
+    public static Graph matrixToGraphWithFamilyName(short[][] matrix, HashMap<String , Integer> hashMap, String familyname)
+    {
+        Graph graph = matrixToGraphWithoutName(matrix, hashMap);
+        graph.setFamilyname(familyname);
+        graph.setName(familyname);
+        return graph;
+    }
+
+    public static Graph matrixToGraphWithoutName(short[][] matrix, HashMap<String, Integer> hashMap)
     {
         Graph graph = new Graph("test", "null");
         for(String key : hashMap.keySet())

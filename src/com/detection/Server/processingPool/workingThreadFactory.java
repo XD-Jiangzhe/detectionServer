@@ -1,6 +1,6 @@
 package com.detection.Server.processingPool;
 
-import com.detection.UtilLoggingModule.MyLogging;
+import com.detection.UtilLs.MyLogging;
 
 import java.util.concurrent.ThreadFactory;
 

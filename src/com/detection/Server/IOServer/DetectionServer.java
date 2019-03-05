@@ -1,6 +1,6 @@
 package com.detection.Server.IOServer;
 
-import com.detection.UtilLoggingModule.MyLogging;
+import com.detection.UtilLs.MyLogging;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;

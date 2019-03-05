@@ -4,12 +4,13 @@ import com.detection.Server.IOServer.DetectionServer;
 import com.detection.Server.ProtoMessage.ProgramInfo;
 import com.detection.Server.processingPool.dealMessage2AppType.Message2AppTypeMethod;
 import com.detection.Server.processingPool.dealMessage2AppType.dealTransferFactory;
-import com.detection.UtilLoggingModule.MyLogging;
+import com.detection.UtilLs.MyLogging;
 import io.netty.channel.Channel;
-import io.netty.channel.ChannelFuture;
 
 
 import java.util.ArrayList;
+
+import static com.detection.Server.ProtoMessage.ReceiveMsgType.InfoDetectionResult;
 
 /**
  * 该类用来做线程池内的处理，即将process 过程从 netty server中分离出来
@@ -64,7 +65,7 @@ public class Task {
     private ProgramInfo.ReceiveMsg  encodeMessage2Client(String appType)
     {
         ProgramInfo.ReceiveMsg msg2InfoApptype = ProgramInfo.ReceiveMsg.newBuilder()
-                .setType(2)
+                .setType(InfoDetectionResult.getVal())
                 .setAppType(appType)
                 .setChannelToken(_channelToken)
                 .setAppName(_appName)

@@ -1,1 +1,15 @@
-
+16:45:19 [pidName: nioEventLoopGroup-2-1] [class: DetectionServer.java] [line: 49] INFO   netty server start success
+17:00:11 [pidName: nioEventLoopGroup-2-1] [class: DetectionServer.java] [line: 49] INFO   netty server start success
+17:03:19 [pidName: nioEventLoopGroup-2-2] [class: ServerHandler.java] [line: 32] INFO   a new client 8643abf5dd154f8d8f07bcec73b6ef60 has registered 
+17:03:24 [pidName: nioEventLoopGroup-2-2] [class: ServerHandler.java] [line: 46] INFO   今日头条 transfertext length : 0
+17:03:27 [pidName: Thread-1] [class: Task.java] [line: 57] INFO   has send the detection result to client 8643abf5dd154f8d8f07bcec73b6ef60
+19:03:27 [pidName: nioEventLoopGroup-2-2] [class: ServerHandler.java] [line: 71] ERROR  exception Caught 远程主机强迫关闭了一个现有的连接。
+19:03:27 [pidName: nioEventLoopGroup-2-2] [class: ServerHandler.java] [line: 65] INFO   channel has been exits, channels size is 0
+19:55:51 [pidName: nioEventLoopGroup-2-3] [class: ServerHandler.java] [line: 32] INFO   a new client 3eedf8063c3148719cd7ec34b754bb9f has registered 
+19:56:04 [pidName: nioEventLoopGroup-2-3] [class: ServerHandler.java] [line: 65] INFO   channel has been exits, channels size is 0
+20:01:40 [pidName: nioEventLoopGroup-2-4] [class: ServerHandler.java] [line: 32] INFO   a new client 3de7404b97984885aa7ba6464dd912b3 has registered 
+20:01:54 [pidName: nioEventLoopGroup-2-4] [class: ServerHandler.java] [line: 65] INFO   channel has been exits, channels size is 0
+20:02:17 [pidName: nioEventLoopGroup-2-5] [class: ServerHandler.java] [line: 32] INFO   a new client 9a05c6bfcd5445a89fac08e7000fa5ca has registered 
+20:02:39 [pidName: nioEventLoopGroup-2-5] [class: ServerHandler.java] [line: 65] INFO   channel has been exits, channels size is 0
+20:06:45 [pidName: nioEventLoopGroup-2-6] [class: ServerHandler.java] [line: 32] INFO   a new client c8ecd1777572403bae400f5e79028a54 has registered 
+20:06:51 [pidName: nioEventLoopGroup-2-6] [class: ServerHandler.java] [line: 65] INFO   channel has been exits, channels size is 0

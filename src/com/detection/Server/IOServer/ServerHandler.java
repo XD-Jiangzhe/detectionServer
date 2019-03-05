@@ -3,12 +3,14 @@ package com.detection.Server.IOServer;
 import com.detection.Server.ProtoMessage.ProgramInfo;
 import com.detection.Server.processingPool.Task;
 import com.detection.Server.processingPool.myCallable;
-import com.detection.UtilLoggingModule.MyLogging;
+import com.detection.UtilLs.MyLogging;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
 import java.util.UUID;
+
+import static com.detection.Server.ProtoMessage.ReceiveMsgType.RequestForHashId;
 
 
 //需要线程安全
@@ -29,7 +31,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<ProgramInfo.SendM
         String token = UUID.randomUUID().toString().replace("-", "").toLowerCase();
         MyLogging.logger.info("a new client " + token +" has registered ");
         ProgramInfo.ReceiveMsg MsgToSetToken = ProgramInfo.ReceiveMsg.newBuilder()
-                .setType(1)
+                .setType(RequestForHashId.getVal())
                 .setAppName("")
                 .setAppType("")
                 .setChannelToken(token).build();
@@ -43,7 +45,8 @@ public class ServerHandler extends SimpleChannelInboundHandler<ProgramInfo.SendM
 
         MyLogging.logger.info(msg.getAppName() + " transfertext length : " + msg.getTransferTxt().length());
 
-        if(msg.getType() == 1)
+        //当收到的消息的类型不为0时，统一处理
+        if(msg.getType() != 0)
         {
             /*这里扔到池子中计算结果，可能需要增加一个task类，使用command设计模式*/
             Task processTask = new Task(_detectionServer, msg.getChannelToken(), msg.getAppName(),

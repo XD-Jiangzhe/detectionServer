@@ -21,28 +21,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="8" />
-          <entry key="java" value="7577" />
+          <entry key="dummy" value="12" />
+          <entry key="java" value="11952" />
+          <entry key="properties" value="300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7577" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JAVA" value="11952" />
+          <entry key="PLAIN_TEXT" value="291" />
+          <entry key="Properties" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="66" />
+          <entry key="java" value="90" />
+          <entry key="org" value="1" />
+          <entry key="properties" value="5" />
           <entry key="proto" value="1" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="19" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="66" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JAVA" value="90" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Properties" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -53,30 +58,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/detection/Server/IOServer/DetectionServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="-540">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding>
-                <element signature="e#2132#2133#0" expanded="true" />
-                <element signature="e#2182#2183#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/IOServer/DetectionServerInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/IOServer/ServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ServerStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="324">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,20 +82,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/myCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="244">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="17" />
               <folding>
+                <element signature="e#168#169#0" expanded="true" />
                 <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferBlockString.java">
+        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,10 +107,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferBlockString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="513">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,17 +121,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferPermissionList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+            <state relative-caret-position="189">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/Message2AppTypeMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/com/detection/UtilLs/readPropertyFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="-135">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/ReceiveMsgType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +164,7 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -166,15 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/detecion/handler/Utils/Graph.java" />
-        <option value="$PROJECT_DIR$/src/com/detecion/handler/GraphElement/Graph.java" />
-        <option value="$PROJECT_DIR$/src/com/detecion/GraphElement/Graph.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectSerial/main.java" />
-        <option value="$PROJECT_DIR$/src/test.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/Util/buildMatrixFromTransfer.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/Util/State.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/GraphElement/Graph.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/GraphElement/Node.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectSerial/vf2.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/ReceiveMessage.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/SendMessage.java" />
@@ -190,10 +204,7 @@
         <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealTransferTxt.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealTransferFactory.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferTxt.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferPermissionList.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferFactory.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/myCallable.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferBlockString.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Algorithm/Util/generateORGBList.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectSerial/StartDetection.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectSerial/StartSerialDetection.java" />
@@ -205,18 +216,30 @@
         <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/parallelDetection/detectorContractor.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/parallelDetection/familyContractor.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/parallelDetection/FamilyWorker.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/Util/buildGraphFromTransfer.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/startParallelDetection.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/StartSerialDetection.java" />
         <option value="$PROJECT_DIR$/src/com/detection/log4jModule/MyLogger.java" />
         <option value="$PROJECT_DIR$/src/com/detectionMylog4jModule/MyLogger.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Server/ServerStart.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Server/IOServer/DetectionServer.java" />
         <option value="$PROJECT_DIR$/src/com/detection/UtilLoggingModule/MyLogging.java" />
-        <option value="$PROJECT_DIR$/log.txt" />
         <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/workingThreadFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/Task.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/GraphElement/Graph.java" />
+        <option value="$PROJECT_DIR$/orgb/baseBridge.org" />
+        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/Util/ReadOrgsFromLocal.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/startParallelDetection.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Algorithm/Util/buildGraphFromTransfer.java" />
+        <option value="$PROJECT_DIR$/log.txt" />
+        <option value="$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/MsgType.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/SendMsgType.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/ReceiveMsgType.java" />
         <option value="$PROJECT_DIR$/src/com/detection/Server/IOServer/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/Task.java" />
+        <option value="$PROJECT_DIR$/malwareVariety2Chinese.properties" />
+        <option value="$PROJECT_DIR$/Server.properties" />
+        <option value="$PROJECT_DIR$/src/com/detection/Server/ServerStart.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferPermissionList.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/UtilLs/readPropertyFile.java" />
+        <option value="$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferBlockString.java" />
       </list>
     </option>
   </component>
@@ -226,7 +249,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-2" />
     <option name="width" value="1456" />
@@ -243,6 +266,11 @@
             <path>
               <item name="detectionServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="detectionServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="detectionServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="detectionServer" type="462c0819:PsiDirectoryNode" />
+              <item name="orgb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="detectionServer" type="b2602c69:ProjectViewProjectNode" />
@@ -293,20 +321,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="detection" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="processingPool" type="462c0819:PsiDirectoryNode" />
-              <item name="workingThreadFactory.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="detectionServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="detectionServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
-              <item name="UtilLoggingModule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="detectionServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="detectionServer" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="ProtoMessage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,8 +347,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551359055783" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/apache-log4j-2.11.2-bin/log4j-slf4j-impl-2.11.2.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551781012596" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../idea_workplace" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -344,11 +359,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\User\worker\winnerHolidayCode\detectionServer\orgb" />
       <recent name="C:\User\worker\winnerHolidayCode\detectionServer\src" />
       <recent name="C:\User\worker\winnerHolidayCode\detectionServer\.idea\libraries" />
       <recent name="C:\User\worker\idea_workplace\detectionServer\src\com\detection\Server\ProtoMessage" />
       <recent name="C:\User\worker\idea_workplace\detectionServer\.idea\libraries" />
-      <recent name="C:\User\worker\idea_workplace\detectionServer\Test\raw_transfer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,11 +393,24 @@
       </method>
     </configuration>
     <configuration name="MyLogging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.detection.UtilLoggingModule.MyLogging" />
+      <option name="MAIN_CLASS_NAME" value="com.detection.UtilLs.MyLogging" />
       <module name="detectionServer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.detection.UtilLoggingModule.*" />
+          <option name="PATTERN" value="com.detection.UtilLs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadOrgsFromLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.detection.Algorithm.Util.ReadOrgsFromLocal" />
+      <module name="detectionServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.detection.Algorithm.Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,12 +431,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="buildGraphFromTransfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.detection.Algorithm.Util.buildGraphFromTransfer" />
+    <configuration name="readPropertyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.detection.UtilLs.readPropertyFile" />
       <module name="detectionServer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.detection.Algorithm.GraphElement.*" />
+          <option name="PATTERN" value="com.detection.UtilLs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,27 +444,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="detectionServer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.buildGraphFromTransfer" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.DetectionServer" />
       <item itemvalue="Application.ServerStart" />
       <item itemvalue="Application.MyLogging" />
+      <item itemvalue="Application.ReadOrgsFromLocal" />
+      <item itemvalue="Application.readPropertyFile" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServerStart" />
+        <item itemvalue="Application.readPropertyFile" />
+        <item itemvalue="Application.ReadOrgsFromLocal" />
         <item itemvalue="Application.MyLogging" />
         <item itemvalue="Application.DetectionServer" />
-        <item itemvalue="Application.buildGraphFromTransfer" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -459,12 +480,12 @@
       <workItem from="1548864038610" duration="7943000" />
       <workItem from="1548930138497" duration="409000" />
       <workItem from="1550487209968" duration="51994000" />
-      <workItem from="1551229833186" duration="8158000" />
+      <workItem from="1551229833186" duration="44417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123189000" />
+    <option name="totallyTimeSpent" value="159448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +497,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-2" width="1456" height="876" extended-state="6" />
+    <frame x="1912" y="-2" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23997134" />
@@ -487,8 +508,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42318058" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34231806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,7 +518,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2646421" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3018868" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -510,6 +531,38 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23997134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1509434" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3018868" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -521,40 +574,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/io_netty_netty_all_4_1_16_Final.xml" />
-    <entry file="file://$PROJECT_DIR$/src/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/Server.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="427" column="13" selection-start-line="427" selection-start-column="13" selection-end-line="427" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/.idea/libraries/netty-all-4.1.16.Final.jar!/io/netty/channel/DefaultChannelPipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="501" selection-start-line="501" selection-end-line="501" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/GraphElement/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/GraphElement/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/SendMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/ReceiveMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/SendMessage.proto" />
     <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/GraphElement/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -710,26 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/startParallelDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/Util/buildGraphFromTransfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/StartSerialDetection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -757,23 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/UtilLoggingModule/MyLogging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,16 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ServerStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/workingThreadFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -801,57 +777,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/myCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferBlockString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferPermissionList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/Message2AppTypeMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -876,28 +801,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/IOServer/DetectionServer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/IOServer/DetectionServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="540">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
-            <element signature="e#2132#2133#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/IOServer/DetectionServerInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/Message2AppTypeMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgb/baseBridge.org">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/GraphElement/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#3453#3454#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3520#3521#0" expanded="true" />
+            <element signature="e#3552#3553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgb/Dougalek.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgb/Copycat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgb/Boxer.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgb/BaseBridge.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/UtilLs/MyLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/Util/ReadOrgsFromLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/detectAlgorithm/startParallelDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Algorithm/Util/buildGraphFromTransfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/SendMsgType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/detection/Server/IOServer/ServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="-284">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ProtoMessage/ReceiveMsgType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/IOServer/DetectionServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/myCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/malware.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="6" selection-start-line="13" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/UtilLs/readPropertyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferPermissionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/processingPool/dealMessage2AppType/dealTransferBlockString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/detection/Server/ServerStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
